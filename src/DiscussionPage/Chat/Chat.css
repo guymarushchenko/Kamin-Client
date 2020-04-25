@@ -1,12 +1,12 @@
-.chat{
-    height:100%;
+.chat {
+    height: 100%;
 }
 
 .Messages-list {
     height: 100%;
     width: 100%;
     overflow: auto;
-    padding-inline-start:0;
+    padding-inline-start: 0;
 }
 
 .Messages-message {
@@ -14,31 +14,41 @@
     text-align: left;
 }
 
-.Messages-message > .avatar {
-    height: 35px;
-    width: 35px;
-    min-height: 35px;
-    min-width: 35px;
+.Messages-message>.avatar {
+    height: 25px;
+    width: 25px;
+    min-height: 25px;
+    min-width: 25px;
     border-radius: 50%;
     display: inline-block;
     margin: 0 10px;
 }
 
-.Message-content > .username {
+.Message-content>.username {
     display: block;
     color: gray;
     font-size: 14px;
     padding-bottom: 2px;
 }
 
-.Message-content > .text {
+.Message-content>.text {
     padding: 10px;
     border-radius: 12px;
     color: black;
     display: inline-block;
-    background-color:lightblue;
+    background-color: lightblue;
 }
 
-.reply{
+.reply {
     color: #006BA6;
+}
+
+.message-buttons {
+    cursor: pointer;
+}
+
+.vl {
+    position: relative;
+    border-left: 2px solid #edeff1;
+    z-index: -1;
 }

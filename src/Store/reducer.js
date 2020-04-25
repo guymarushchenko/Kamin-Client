@@ -14,8 +14,7 @@ const reducer = (state = initialState, action) => {
             token: action.payload["token"],
             userType: action.payload["userType"]
         }
-    }
-    else if (action.type === 'LOGOUT') {
+    } else if (action.type === 'LOGOUT') {
         localStorage.setItem('currentUser', '');
         localStorage.setItem('token', '');
         localStorage.setItem('userType', '');

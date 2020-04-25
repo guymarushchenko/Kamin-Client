@@ -13,16 +13,16 @@ class App extends Component {
         return (
             <BrowserRouter>
                 <div className="App">
-                    <Route component={NavigationBar} />
+                    <Route component={NavigationBar}/>
                     <div className="content">
-                        <Route exact path="/" component={HomePage} />
+                        <Route exact path="/" component={HomePage}/>
                         <Route path="/Discussion/:isSimulation/:simulationCode"
-                            render={(props) => <Discussion {...props}
-                                isSimulation={props.match.params.isSimulation}
-                                simulationCode={props.match.params.simulationCode} />} />
-                        <Route path="/login/" component={Login} />
-                        <Route path="/registration/" component={Registration} />
-                        <Route path="/moderatorsManagement/" component={Moderators} />
+                               render={(props) => <Discussion {...props}
+                                                              isSimulation={props.match.params.isSimulation}
+                                                              simulationCode={props.match.params.simulationCode}/>}/>
+                        <Route path="/login/" component={Login}/>
+                        <Route path="/registration/" component={Registration}/>
+                        <Route path="/moderatorsManagement/" component={Moderators}/>
 
                     </div>
                 </div>

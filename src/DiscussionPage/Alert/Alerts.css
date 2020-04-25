@@ -1,6 +1,8 @@
-#alerts-list{
-    border: 3px solid #4285f4;
-    height:11.5%;
+#alerts-list {
     overflow: auto;
-    list-style-type:none
+    list-style-type: none
+}
+
+.alerts-window {
+    height: 100%;
 }

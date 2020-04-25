@@ -1,25 +1,37 @@
-html, body{
-    overflow:hidden;
-    height:100%;
-    width:100%;
-}
-
-#root{
-    height:100%;
+.Discussion {
+    height: 100%;
     width: 100%;
 }
 
-.Discussion{
-    height:100%;
-    width:100%;
+.content {
+    height: 100%;
 }
 
-.content{
-    height:100%;
-    width:100%;
+.discussion-col {
+    height: 86%;
 }
 
-.chatwindow{
-    border: solid 3px #4285f4;
-    height: 82%;
+.title {
+    font-weight: bold;
+}
+
+.discussionTitle {
+    font-size: x-large;
+    margin: 3px auto auto;
+}
+
+.graph{
+    height: 60%;
+}
+
+.insights{
+    height: 39.6%;
+}
+
+.card-stats{
+    height: 50%;
+}
+
+hr {
+    margin-top: auto;
 }
